@@ -20,14 +20,11 @@ def print_char_separator(char):
 # Custom separators
 
 def print_custom_separator(char, length):
-
-    if length >= 0:
-        
-        return None
     
-    else:
-
+    if length > 0:
         print(char * length)
+    else:
+        print("Insert length")
 
 # Labeled separator         
 

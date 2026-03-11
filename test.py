@@ -11,7 +11,7 @@ print_char_separator("=")
 
 print_separator()
 
-print_custom_separator('.', 50)
+print_custom_separator('-', 50)
 
 print_labeled_separator("PYTHON")
 
